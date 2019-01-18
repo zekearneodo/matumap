@@ -1,0 +1,22 @@
+from setuptools import setup
+
+setup(name='swissknife',
+      version='0.1',
+      description='Various tools to handle data and simmulations',
+      url='http://github.com/zekearneodo/swissknife',
+      author='Zeke Arneodo',
+      author_email='earneodo@ucsd.edu',
+      license='MIT',
+      packages=['swissknife'],
+      install_requires=['numpy',
+                        'pandas>=0.23',
+                        'more_itertools',
+                        'peakutils>=1.3',
+                        'scipy',
+                        'matplotlib',
+                        'librosa',
+                        'tqdm',
+                        'joblib',
+                        'h5py',
+                        'yml'],
+      zip_safe=False)
