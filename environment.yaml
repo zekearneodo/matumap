@@ -1,8 +1,10 @@
-name: umap
+name: mumap
 channels:
   - conda-forge
+  - hahnloserlab
   - defaults
 
 dependencies:
   - python=3.7
   - umap-learn=0.3.7
+  - matumap>=0.0.1
