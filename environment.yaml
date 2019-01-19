@@ -7,4 +7,4 @@ channels:
 dependencies:
   - python=3.6
   - umap-learn=0.3.7
-  - matumap>=0.0.1
+  - matumap>=0.0.2
